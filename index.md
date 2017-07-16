@@ -58,7 +58,7 @@ This assignment consisted of two parts:
 
 1. The Shiny application: [link here](https://cwalsh.shinyapps.io/developing_data_products_dynamic_sankey_diagram/)
 
-2. The Pitch Presentation: [link here](https://cwalsh.shinyapps.io/developing_data_products_dynamic_sankey_diagram/)
+2. The Pitch Presentation: [link here](https://chwalsh.github.io/DataProductDeck)
 
 
 ---
@@ -75,7 +75,7 @@ This application is a proof of concept and all underyling data was simulated.
 
 ## The Sankey
 
-<img src="figure/Sankey-1.png" title="plot of chunk Sankey" alt="plot of chunk Sankey" style="display: block; margin: auto;" />
+<img src="assets/fig/Sankey-1.png" title="plot of chunk Sankey" alt="plot of chunk Sankey" style="display: block; margin: auto;" />
 
 The **Sankey Diagram** allows users to visualize the flow of cases between steps in the workflow based on the reactive filters applied. In the example above we can see how cases start from a common point but eventually diverge towards *Mid2* and *Mid3*.
 
@@ -83,6 +83,6 @@ The **Sankey Diagram** allows users to visualize the flow of cases between steps
 
 ## The Bar Chart
 
-<img src="figure/Bar-1.png" title="plot of chunk Bar" alt="plot of chunk Bar" style="display: block; margin: auto;" />
+<img src="assets/fig/Bar-1.png" title="plot of chunk Bar" alt="plot of chunk Bar" style="display: block; margin: auto;" />
 
 The **Bar Chart** allows users to understand the costs and revenues associated with the cases selected by the reactive filters. In the example above we can see the cases that end at *Node 2* (Mid2) resulted in the greatest cost to work. This is likely driven by their volume, which can be observed on the previous Sankey Diagram.

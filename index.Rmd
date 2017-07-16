@@ -66,7 +66,7 @@ This assignment consisted of two parts:
 
 1. The Shiny application: [link here](https://cwalsh.shinyapps.io/developing_data_products_dynamic_sankey_diagram/)
 
-2. The Pitch Presentation: [link here](https://cwalsh.shinyapps.io/developing_data_products_dynamic_sankey_diagram/)
+2. The Pitch Presentation: [link here](https://chwalsh.github.io/DataProductDeck)
 
 
 ---
