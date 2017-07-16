@@ -3,7 +3,7 @@ title: 'Developing Data Products'
 subtitle    : 'Dynamic Sankey Diagram'
 author      : "Chris Walsh"
 job         : "July 15, 2017"
-framework   : revealjs      # {io2012, html5slides, shower, dzslides, ...}
+framework   : revealjs      # {io2012, html5slides, shower, dzslides,}
 revealjs    :
   theme: night
   transition: convex
@@ -39,6 +39,13 @@ code {
      height: 250px;
 }
 </style>
+
+## Developing Data Products
+### Dynamic Sankey Diagram
+#### Chris Walsh
+#### July 15, 2017
+
+---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE)

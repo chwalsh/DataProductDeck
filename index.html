@@ -46,9 +46,18 @@ code {
 }
 </style>
 
-<h2>The Assignment</h2>
+<h2>Developing Data Products</h2>
 
-<p>This assignment consisted of two parts:</p>
+<h3>Dynamic Sankey Diagram</h3>
+
+<h4>Chris Walsh</h4>
+
+<h4>July 15, 2017</h4>
+
+</section>
+<section class='' data-state='' id='slide-2'>
+  <h2>The Assignment</h2>
+  <p>This assignment consisted of two parts:</p>
 
 <ol>
 <li><p>An <strong>R Shiny</strong> application, complete with input, reactive output, and associated documentation</p></li>
@@ -66,23 +75,23 @@ code {
 </ol>
 
 </section>
-<section class='' data-state='' id='slide-2'>
+<section class='' data-state='' id='slide-3'>
   <h2>The Use Case</h2>
   <p>This application was designed to provide insight into the flow of observations through a complex, multi-step workflow. The inital tab provides a Sankey Diagram to help <strong>visualize flow through the system</strong>. The diagram is reactive, and as cases are filtered on their underlying characteristics (e.g. priority level, expected value) the Sankey will update as well. The second tab includes a reactive bar chart that provides <strong>insight into case outcomes</strong> (e.g. cost and revenue). </p>
 
 <p>This application is a proof of concept and all underyling data was simulated.</p>
 
 </section>
-<section class='' data-state='' id='slide-3'>
+<section class='' data-state='' id='slide-4'>
   <h2>The Sankey</h2>
-  <p><img src="assets/fig/Sankey-1.png" title="plot of chunk Sankey" alt="plot of chunk Sankey" style="display: block; margin: auto;" /></p>
+  <p><img src="figure/Sankey-1.png" title="plot of chunk Sankey" alt="plot of chunk Sankey" style="display: block; margin: auto;" /></p>
 
 <p>The <strong>Sankey Diagram</strong> allows users to visualize the flow of cases between steps in the workflow based on the reactive filters applied. In the example above we can see how cases start from a common point but eventually diverge towards <em>Mid2</em> and <em>Mid3</em>.</p>
 
 </section>
-<section class='' data-state='' id='slide-4'>
+<section class='' data-state='' id='slide-5'>
   <h2>The Bar Chart</h2>
-  <p><img src="assets/fig/Bar-1.png" title="plot of chunk Bar" alt="plot of chunk Bar" style="display: block; margin: auto;" /></p>
+  <p><img src="figure/Bar-1.png" title="plot of chunk Bar" alt="plot of chunk Bar" style="display: block; margin: auto;" /></p>
 
 <p>The <strong>Bar Chart</strong> allows users to understand the costs and revenues associated with the cases selected by the reactive filters. In the example above we can see the cases that end at <em>Node 2</em> (Mid2) resulted in the greatest cost to work. This is likely driven by their volume, which can be observed on the previous Sankey Diagram.</p>
 
