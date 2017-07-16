@@ -1,0 +1,10 @@
+base
+shiny
+networkD3
+ggplot2
+dplyr
+bindrcpp
+devtools
+slidify
+slidifyLibraries
+webshot
